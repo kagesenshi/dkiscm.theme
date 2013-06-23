@@ -16,9 +16,14 @@
 
     <browser:jbot
         directory="jbot"
-        layer=".interfaces.IThemeSpecific" />
+        layer=".interfaces.IProductSpecific" />
 
     <cmf:registerDirectory name="dkiscm_theme"/>
+
+    <browser:resourceDirectory
+        name="dkiscm.theme"
+        directory="static"
+        />
 
     <!-- -*- extra stuff goes here -*- -->
 

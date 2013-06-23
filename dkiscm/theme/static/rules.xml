@@ -18,15 +18,17 @@
         <merge theme="/html/body" content="/html/body" attributes="dir"/>
         <append css:theme="body" css:content="#plone-analytics"/>
 
+        <append theme="/html/body"
+            content="//div[@data-iframe='plone-toolbar']" />
+
         <replace css:theme-children="#portal-personaltools-wrapper"
             css:content-children="#portal-personaltools-wrapper"/>
-        <replace css:theme-children="#portal-searchbox"
-            css:content-children="#portal-searchbox"/>
 
         <replace css:theme="#portal-logo"
             css:content="#portal-logo"/>
 
         <replace css:theme-children="#portal-globalnav"
+            css:if-content="#edit-bar"
             css:content-children="#portal-globalnav"/>
 
         <replace css:theme-children="#portal-columns"
