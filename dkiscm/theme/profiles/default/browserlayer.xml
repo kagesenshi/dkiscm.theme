@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<layers>
+    <layer name="dkiscm.theme"
+        interface="dkiscm.theme.interfaces.IProductSpecific" />
+</layers>

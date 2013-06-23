@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<object name="portal_skins" allow_any="False" cookie_persistence="False"
+   default_skin="Sunburst Theme">
+   <object name="dkiscm_theme"
+        meta_type="Filesystem Directory View"
+        directory="dkiscm.theme:skins/dkiscm_theme"/>
+    <skin-path name="*">
+        <layer name="dkiscm_theme"
+                insert-after="custom"/>
+    </skin-path>
+</object>
