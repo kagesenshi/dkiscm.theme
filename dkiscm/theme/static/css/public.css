@@ -279,6 +279,7 @@ input.searchField {
     font-size: 80%;
     margin-bottom: 1em;
     margin-left: 0.25em;
+    float:left;
 }
 #portal-breadcrumbs a {
     border-bottom: none;
