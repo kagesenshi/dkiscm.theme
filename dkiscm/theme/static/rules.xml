@@ -21,6 +21,7 @@
         <append theme="/html/body"
             content="//div[@data-iframe='plone-toolbar']" />
 
+
         <replace css:theme-children="#portal-personaltools-wrapper"
             css:content-children="#portal-personaltools-wrapper"/>
 
